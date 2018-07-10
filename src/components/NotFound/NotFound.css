@@ -1,0 +1,14 @@
+.icn-error {
+  font-size: 3.2em;
+  margin-bottom: .25em;
+}
+
+.main-content {
+  color: #cca353;
+  margin: auto;
+  position: absolute;  
+  text-align: center;
+  left: 0;
+  bottom: 1; 
+  right: 0;
+}

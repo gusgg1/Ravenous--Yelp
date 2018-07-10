@@ -1,3 +1,27 @@
+# Ravenous
+
+#### A search app based on the [Yelp API](https://www.yelp.com/) and built with React 
+* When for example searched for `pizza` in `new york` the app will return a list of restaurants
+depending on which of the three categories the user has chosen: `Best Match`, `Highest Rated` and `Most Reviewed`.
+* A loading screen appears while app fetches the API data.
+* If no results a `0 results` message will be displayed and the app will refresh after 3 seconds so user can search again.
+* I used `CORS anywhere` to bypass the CORS restrictions.
+* For broader support in older browsers I used the `whatwg-fetch` polyfill.
+
+###### This is the second project for the *Build Front-End Web Applications from Scratch* intensive course.
+
+##### To run this project:
+
+* `npm install` for installing dependencies.
+* Create a `config.js` file inside the `util` directory, in here:
+```javascript
+const apiKey = 'YOUR-API-KEY';
+
+export default apiKey;
+```
+* `npm start` to run the app
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
